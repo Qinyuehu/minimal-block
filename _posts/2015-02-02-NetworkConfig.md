@@ -5,10 +5,10 @@ date: 2015-02-02 13:31:31
 categories: Linux
 ---
 
-* Ip address
-* ×ÓÍøÑÚÂë
-* Íø¹Øroute
-* DNS
+ Ip address
+ networkmask
+ route
+ DNS
 
 ping 192.168.1.1
 ping www.hostname.com
