@@ -4,6 +4,11 @@ title: "Some commands for Linux network configration"
 date: 2015-02-02 pm
 categories: Linux
 ---
+*ip address
+*network mask
+*route
+*DNS
+
 ²âÊÔÍøÂçÁ¬Í¨ÐÔ
  ping 192.168.1.1
  ping www.hostname.net
