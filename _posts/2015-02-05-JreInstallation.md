@@ -19,7 +19,7 @@ export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib
 export PATH=${JAVA_HOME}/bin:$PATH
 {% endhighlight %}
 
-由于最后红色标注的一行，导致系统启动到登录界面，输入密码后，一直报错，无法进入系统(正确设置jdk的方法请参考：{% post_url http://www.linuxidc.com/Linux/2012-09/71209.htm %})
+由于最后红色标注的一行，导致系统启动到登录界面，输入密码后，一直报错，无法进入系统(正确设置jdk的方法请参考：http://www.linuxidc.com/Linux/2012-09/71209.htm)
 
 SOLUTIONS:
 ==========
