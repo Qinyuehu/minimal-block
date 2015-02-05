@@ -5,6 +5,7 @@ paginate: 5
 highlighter: pygments
 safe: true
 lsi: false
+encoding: UTF-8
 rss-feed-limit: 10
 
 twitter: qinyue
