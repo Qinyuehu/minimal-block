@@ -17,12 +17,12 @@ route
 DNS
 ---
 
-'ping 192.168.1.1'
-'ping www.hostname.com'
+`ping 192.168.1.1`
+`ping www.hostname.com`
 
 ###DNS:
-'host www.hostname.com'
-'dig www.hostname.com'
+`host www.hostname.com`
+`dig www.hostname.com`
 
-'traceroute www.hostname.com'
-'mtr www.hostname.com' ("My traceroute", combination of ping and traceroute)
+`traceroute www.hostname.com`
+`mtr www.hostname.com` ("My traceroute", combination of ping and traceroute)
