@@ -11,12 +11,13 @@ Problem:
 
 Sometimes wrong modification of environment path variable can cause system login
 failure.
-
-	PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
-	export JAVA_HOME=/opt/jdk1.7.0_07
-	export JRE_HOME=${JAVA_HOME}/jre
-	export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib
-	export PATH=${JAVA_HOME}/bin:$PATH
+{% highlight bash %}
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
+export JAVA_HOME=/opt/jdk1.7.0_07
+export JRE_HOME=${JAVA_HOME}/jre
+export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib
+export PATH=${JAVA_HOME}/bin:$PATH
+{% enhighlight %}
 
 由于最后红色标注的一行，导致系统启动到登录界面，输入密码后，一直报错，无法进入系统(正确设置jdk的方法请参考：http://www.linuxidc.com/Linux/2012-09/71209.htm)
 
