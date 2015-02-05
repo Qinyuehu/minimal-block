@@ -4,14 +4,14 @@ title: "UBUNTU ENVIRONMENT PATH SETTINGS"
 date: 2015-02-05 16:43:00
 category: ubuntu
 ---
-[原文]({% post_url http://blog.sina.com.cn/s/blog_7cbaa68a0101fpbn.html %} )
+[原文]( http://blog.sina.com.cn/s/blog_7cbaa68a0101fpbn.html)
 
 Problem:
 ========
 
 Sometimes wrong modification of environment path variable can cause system login
 failure.
-{% highlight bash linenos %}
+{% highlight bash %}
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
 export JAVA_HOME=/opt/jdk1.7.0_07
 export JRE_HOME=${JAVA_HOME}/jre
