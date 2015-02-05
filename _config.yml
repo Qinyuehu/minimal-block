@@ -1,15 +1,14 @@
 name: Qinyuehu
 description: personal blog for learning
 url: http://qinyuehu.github.com
-markdown: redcarpet
 paginate: 5
 highlighter: pygments
-
+safe: true
+lsi: false
 rss-feed-limit: 10
 
-disqus-id: 
 twitter: qinyue
 github: qinyuehu
-google: 
+ 
 
 permalink: /:title
