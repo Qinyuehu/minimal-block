@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "UBUNTU ENVIRONMENT PATH SETTINGS"
-date: 2015-02-05 pm
+date: 2015-02-05 16:43:00
 category: ubuntu
 ---
 [原文](http://blog.sina.com.cn/s/blog_7cbaa68a0101fpbn.html)
