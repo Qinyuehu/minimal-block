@@ -1,9 +1,10 @@
 name: Qinyuehu
-description: personal blog for learning
+description: 风也萧萧,雨也萧萧
 url: http://qinyuehu.github.com
 
 markdown: redcarpet
 paginate: 5
+pygments: true
 highlighter: pygments
 
 safe: true
